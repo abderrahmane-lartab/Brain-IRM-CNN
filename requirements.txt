@@ -1,0 +1,27 @@
+# Dépendances du projet BrainScan AI
+# Python 3.12 requis (TensorFlow non disponible sur Python 3.14)
+
+# Modèle CNN
+tensorflow-cpu==2.21.0
+
+# Prétraitement images
+opencv-python==5.0.0.93
+# Manipulation & visualisation
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Machine learning (métriques, encodage, split)
+scikit-learn==1.9.1
+
+# Interface de prédiction
+streamlit==1.66.0
+
+# Notebooks
+jupyter
+ipykernel==7.4.0
+
+# Visualisation de l'architecture du modèle
+pydot==4.0.1
+graphviz==0.21
