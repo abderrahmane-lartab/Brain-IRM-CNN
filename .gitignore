@@ -6,6 +6,7 @@ __pycache__/
 venv/
 
 data/
+models/*.keras
 env/
 .env
 .env.*
